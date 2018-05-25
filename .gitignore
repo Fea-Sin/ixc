@@ -1,0 +1,13 @@
+*.diff
+*.patch
+*.bak
+*.log
+.DS_Store
+node_modules/
+npm-debug.log
+git-back/
+.svn/
+examples/dist/
+dist/
+test/unit/coverage
+.vscode

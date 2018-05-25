@@ -1,0 +1,142 @@
+.slide-motion(@className, @keyframeName) {
+  .make-motion(@className, @keyframeName);
+  .@{className}-enter-active, .@{className}-appear {
+      opacity: 0;
+      animation-timing-function: @ease-in-out;
+  }
+  .@{className}-leave-active {
+      animation-timing-function: @ease-in-out;
+  }
+}
+
+.slide-motion(transition-drop, ixTransitionDrop);
+.slide-motion(slide-up, ixSlideUp);
+.slide-motion(slide-down, ixSlideDown);
+.slide-motion(slide-left, ixSlideLeft);
+.slide-motion(slide-right, ixSlideRight);
+
+@keyframes ixTransitionDropIn {
+  0% {
+      opacity: 0;
+      transform: scaleY(0.8);
+  }
+  100% {
+      opacity: 1;
+      transform: scaleY(1);
+  }
+}
+
+@keyframes ixTransitionDropOut {
+  0% {
+      opacity: 1;
+      transform: scaleY(1);
+  }
+  100% {
+      opacity: 0;
+      transform: scaleY(0.8);
+  }
+}
+
+@keyframes ixSlideUpIn {
+  0% {
+      opacity: 0;
+      transform-origin: 0% 0%;
+      transform: scaleY(.8);
+  }
+  100% {
+      opacity: 1;
+      transform-origin: 0% 0%;
+      transform: scaleY(1);
+  }
+}
+
+@keyframes ixSlideUpOut {
+  0% {
+      opacity: 1;
+      transform-origin: 0% 0%;
+      transform: scaleY(1);
+  }
+  100% {
+      opacity: 0;
+      transform-origin: 0% 0%;
+      transform: scaleY(.8);
+  }
+}
+
+@keyframes ixSlideDownIn {
+  0% {
+      opacity: 0;
+      transform-origin: 100% 100%;
+      transform: scaleY(.8);
+  }
+  100% {
+      opacity: 1;
+      transform-origin: 100% 100%;
+      transform: scaleY(1);
+  }
+}
+
+@keyframes ixSlideDownOut {
+  0% {
+      opacity: 1;
+      transform-origin: 100% 100%;
+      transform: scaleY(1);
+  }
+  100% {
+      opacity: 0;
+      transform-origin: 100% 100%;
+      transform: scaleY(.8);
+  }
+}
+
+@keyframes ixSlideLeftIn {
+  0% {
+      opacity: 0;
+      transform-origin: 0% 0%;
+      transform: scaleX(.8);
+  }
+  100% {
+      opacity: 1;
+      transform-origin: 0% 0%;
+      transform: scaleX(1);
+  }
+}
+
+@keyframes ixSlideLeftOut {
+  0% {
+      opacity: 1;
+      transform-origin: 0% 0%;
+      transform: scaleX(1);
+  }
+  100% {
+      opacity: 0;
+      transform-origin: 0% 0%;
+      transform: scaleX(.8);
+  }
+}
+
+@keyframes ixSlideRightIn {
+  0% {
+      opacity: 0;
+      transform-origin: 100% 0%;
+      transform: scaleX(.8);
+  }
+  100% {
+      opacity: 1;
+      transform-origin: 100% 0%;
+      transform: scaleX(1);
+  }
+}
+
+@keyframes ixSlideRightOut {
+  0% {
+      opacity: 1;
+      transform-origin: 100% 0%;
+      transform: scaleX(1);
+  }
+  100% {
+      opacity: 0;
+      transform-origin: 100% 0%;
+      transform: scaleX(.8);
+  }
+}

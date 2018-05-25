@@ -1,0 +1,55 @@
+.ivu-load-loop {
+  animation: ani-load-loop 1s linear infinite;
+}
+@keyframes ani-load-loop {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.input-group-error-prepend,
+.input-group-error-append {
+  background-color: #fff;
+  border: 1px solid #ed3f14;
+}
+.input-group-error-prepend .ix-select-selection,
+.input-group-error-append .ix-select-selection {
+  background-color: inherit;
+  border: 1px solid transparent;
+}
+.input-group-error-prepend {
+  border-right: 0;
+}
+.input-group-error-append {
+  border-left: 0;
+}
+.ix-breadcrumb {
+  color: #999;
+  font-size: 14px;
+}
+.ix-breadcrumb a {
+  color: #495060;
+  transition: color 0.2s ease-in-out;
+}
+.ix-breadcrumb a:hover {
+  color: #57a3f3;
+}
+.ix-breadcrumb > span:last-child {
+  font-weight: bold;
+  color: #495060;
+}
+.ix-breadcrumb > span:last-child .ix-breadcrumb-item-separator {
+  display: none;
+}
+.ix-breadcrumb-item-separator {
+  margin: 0 8px;
+  color: #dddee1;
+}
+.ix-breadcrumb-item-link > .ivu-icon + span {
+  margin-left: 4px;
+}

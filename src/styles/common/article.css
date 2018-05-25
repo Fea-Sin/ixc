@@ -1,0 +1,109 @@
+.ix-load-loop {
+  animation: ani-load-loop 1s linear infinite;
+}
+@keyframes ani-load-loop {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.input-group-error-prepend,
+.input-group-error-append {
+  background-color: #fff;
+  border: 1px solid #ed3f14;
+}
+.input-group-error-prepend .ix-select-selection,
+.input-group-error-append .ix-select-selection {
+  background-color: inherit;
+  border: 1px solid transparent;
+}
+.input-group-error-prepend {
+  border-right: 0;
+}
+.input-group-error-append {
+  border-left: 0;
+}
+.ix-breadcrumb {
+  color: #999;
+  font-size: 14px;
+}
+.ix-breadcrumb a {
+  color: #495060;
+  transition: color 0.2s ease-in-out;
+}
+.ix-breadcrumb a:hover {
+  color: #57a3f3;
+}
+.ix-breadcrumb > span:last-child {
+  font-weight: bold;
+  color: #495060;
+}
+.ix-breadcrumb > span:last-child .ix-breadcrumb-item-separator {
+  display: none;
+}
+.ix-breadcrumb-item-separator {
+  margin: 0 8px;
+  color: #dddee1;
+}
+.ix-breadcrumb-item-link > .ivu-icon + span {
+  margin-left: 4px;
+}
+.ix-article h1 {
+  font-size: 26px;
+  font-weight: normal;
+}
+.ix-article h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+.ix-article h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.ix-article h4 {
+  font-size: 14px;
+  font-weight: normal;
+}
+.ix-article h5 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.ix-article h6 {
+  font-size: 12px;
+  font-weight: normal;
+}
+.ix-article blockquote {
+  padding: 5px 5px 3px 10px;
+  line-height: 1.5;
+  border-left: 4px solid #ddd;
+  margin-bottom: 20px;
+  color: #666;
+  font-size: 14px;
+}
+.ix-article ul:not([class^="ix-"]) {
+  padding-left: 40px;
+  list-style-type: disc;
+}
+.ix-article li:not([class^="ix-"]) {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.ix-article ul ul:not([class^="ix-"]),
+.ix-article ol ul:not([class^="ix-"]) {
+  list-style-type: circle;
+}
+.ix-article p {
+  margin: 5px;
+  font-size: 14px;
+}
+.ix-article a[target="_blank"]:after {
+  content: "\F220";
+  font-family: Ionicons;
+  color: #aaa;
+  margin-left: 3px;
+}
