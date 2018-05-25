@@ -6,6 +6,7 @@
 
 # IXC
 [![ixc](https://img.shields.io/npm/v/ixc.svg?style=flat-square)](https://www.npmjs.com/package/ixc)
+[![NPM downloads](https://img.shields.io/npm/dt/ixc.svg?style=flat-square)](https://npmjs.org/package/ixc)
 
 ### A UI Toolkit build on Vue.js.
 
