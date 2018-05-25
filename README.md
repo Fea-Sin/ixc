@@ -5,7 +5,7 @@
 </p>
 
 # ixc
-[![ixc](https://img.shields.io/npm/v/iview.svg?style=flat-square)](https://www.npmjs.com/package/ixc)
+[![ixc](https://img.shields.io/npm/v/ixc.svg?style=flat-square)](https://www.npmjs.com/package/ixc)
 
 ### A UI Toolkit build on Vue.js.
 
