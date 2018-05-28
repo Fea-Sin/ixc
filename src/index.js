@@ -1,8 +1,11 @@
 import XIcon from './components/icon'
+import {XRow, XCol} from './components/grid'
 import locale from './locale/index'
 
 const components = {
-  XIcon
+  XCol,
+  XIcon,
+  XRow
 }
 
 const ixc = {

@@ -5,6 +5,9 @@
         <li>
           <router-link to="/xicon">XIcon</router-link>
         </li>
+        <li>
+          <router-link to="/xgrid">XGrid</router-link>
+        </li>
       </ul>
     </nav>
     <router-view></router-view>
@@ -39,6 +42,10 @@ export default {
 
   ul, li {
     list-style: none;
+  }
+  li {
+    display: inline-block;
+    padding: 0 3px;
   }
 }
 </style>

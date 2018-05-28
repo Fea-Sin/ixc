@@ -49,6 +49,14 @@ Using css via `import`:
 import 'ixc/dist/styles/ixc.css'
 ```
 
+## 组件列表，持续开发
+
+- XIcon
+
+- XRow
+
+- XCol
+
 ## Links
 - [vue](https://github.com/vuejs/vue)
 - [Webpack](https://github.com/webpack/webpack)

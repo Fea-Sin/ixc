@@ -22,12 +22,16 @@ const router = new VueRouter({
     {
       path: '/xicon',
       component: (resolve) => require(['./routers/xicon.vue'], resolve)
+    },
+    {
+      path: '/xgrid',
+      component: (resolve) => require(['./routers/xgrid.vue'], resolve)
     }
   ]
 })
 
 new Vue({
-  el: "#app",
+  el: '#app',
   router,
   template: '<App />',
   components: { App }

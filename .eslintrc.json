@@ -12,7 +12,6 @@
     "commonjs": true,
     "es6": true
   },
-  "extends": "eslint:recommened",
   "plugins": [
     "vue"
   ],
