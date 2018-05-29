@@ -37,16 +37,25 @@ npm install --save ixc
 
 ## Usage
 
-```vue
-<template>
-  <XIcon type="log-in" size="30" color="#01adce"></XIcon>
-</template>
+before use ixc Library, you must install it on Vue and import ixc css
+
+```js
+import Vue from 'vue'
+import Ixc from 'ixc'
+
+Vue.use(Ixc)
 ```
 
 Using css via `import`:
 
 ```js
 import 'ixc/dist/styles/ixc.css'
+```
+
+```vue
+<template>
+  <XIcon type="log-in" size="30" color="#01adce"></XIcon>
+</template>
 ```
 
 ## 组件列表，持续开发
