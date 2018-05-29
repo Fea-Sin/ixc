@@ -26,6 +26,10 @@ const router = new VueRouter({
     {
       path: '/xgrid',
       component: (resolve) => require(['./routers/xgrid.vue'], resolve)
+    },
+    {
+      path: '/xbutton',
+      component: (resolve) => require(['./routers/xbutton.vue'], resolve)
     }
   ]
 })

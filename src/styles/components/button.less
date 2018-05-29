@@ -1,0 +1,21 @@
+@import "../add-index.less";
+
+/**
+ * button
+ * --------------
+ */
+@btn-prefix-cls: ~"@{css-prefix}btn";
+
+.@{btn-prefix-cls} {
+  font-size: 16px;
+  .btn();
+  .btn-default();
+
+  &-long {
+    width: 100%;
+  }
+
+  & > .@{css-prefix-iconfont} + span, & > span + .@{css-prefix-iconfont} {
+    margin-left: 4px;
+  }
+}

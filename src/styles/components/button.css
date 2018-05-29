@@ -1,0 +1,144 @@
+.ix-load-loop {
+  animation: ani-load-loop 1s linear infinite;
+}
+@keyframes ani-load-loop {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.input-group-error-prepend,
+.input-group-error-append {
+  background-color: #fff;
+  border: 1px solid #ed3f14;
+}
+.input-group-error-prepend .ix-select-selection,
+.input-group-error-append .ix-select-selection {
+  background-color: inherit;
+  border: 1px solid transparent;
+}
+.input-group-error-prepend {
+  border-right: 0;
+}
+.input-group-error-append {
+  border-left: 0;
+}
+.ix-breadcrumb {
+  color: #999;
+  font-size: 14px;
+}
+.ix-breadcrumb a {
+  color: #495060;
+  transition: color 0.2s ease-in-out;
+}
+.ix-breadcrumb a:hover {
+  color: #57a3f3;
+}
+.ix-breadcrumb > span:last-child {
+  font-weight: bold;
+  color: #495060;
+}
+.ix-breadcrumb > span:last-child .ix-breadcrumb-item-separator {
+  display: none;
+}
+.ix-breadcrumb-item-separator {
+  margin: 0 8px;
+  color: #dddee1;
+}
+.ix-breadcrumb-item-link > .ix-icon + span {
+  margin-left: 4px;
+}
+/**
+ * button
+ * --------------
+ */
+.ix-btn {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  user-select: none;
+  padding: 6px 15px;
+  font-size: 12px;
+  border-radius: 4px;
+  transition: color 0.2s linear, background-color 0.2s linear, border 0.2s linear, box-shadow 0.2s linear;
+  color: #495060;
+  background-color: #f7f7f7;
+  border-color: #dddee1;
+}
+.ix-btn > .ix-icon {
+  line-height: 1;
+}
+.ix-btn,
+.ix-btn:active,
+.ix-btn:focus {
+  outline: 0;
+}
+.ix-btn.disabled,
+.ix-btn[disabled] {
+  cursor: not-allowed;
+}
+.ix-btn.disabled > *,
+.ix-btn[disabled] > * {
+  pointer-events: none;
+}
+.ix-btn-large {
+  padding: 6px 15px 7px 15px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.ix-btn-small {
+  padding: 2px 7px;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.ix-btn:hover {
+  color: #6d7380;
+  background-color: #f9f9f9;
+  border-color: #e4e5e7;
+}
+.ix-btn:active,
+.ix-btn.active {
+  color: #454c5b;
+  background-color: #ebebeb;
+  border-color: #d2d3d6;
+}
+.ix-btn.disabled,
+.ix-btn[disabled],
+fieldset[disabled] .ix-btn,
+.ix-btn.disabled:hover,
+.ix-btn[disabled]:hover,
+fieldset[disabled] .ix-btn:hover,
+.ix-btn.disabled:focus,
+.ix-btn[disabled]:focus,
+fieldset[disabled] .ix-btn:focus,
+.ix-btn.disabled:active,
+.ix-btn[disabled]:active,
+fieldset[disabled] .ix-btn:active,
+.ix-btn.disabled.active,
+.ix-btn[disabled].active,
+fieldset[disabled] .ix-btn.active {
+  color: #bbbec4;
+  background-color: #f7f7f7;
+  border-color: #dddee1;
+}
+.ix-btn:focus {
+  box-shadow: 0 0 0 2px rgba(45, 140, 240, 0.2);
+}
+.ix-btn-long {
+  width: 100%;
+}
+.ix-btn > .ix-icon + span,
+.ix-btn > span + .ix-icon {
+  margin-left: 4px;
+}

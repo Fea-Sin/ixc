@@ -1,8 +1,10 @@
 import XIcon from './components/icon'
 import {XRow, XCol} from './components/grid'
+import XButton from './components/button'
 import locale from './locale/index'
 
 const components = {
+  XButton,
   XCol,
   XIcon,
   XRow

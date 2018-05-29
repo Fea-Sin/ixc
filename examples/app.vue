@@ -8,6 +8,9 @@
         <li>
           <router-link to="/xgrid">XGrid</router-link>
         </li>
+        <li>
+          <router-link to="/xbutton">XButton</router-link>
+        </li>
       </ul>
     </nav>
     <router-view></router-view>
