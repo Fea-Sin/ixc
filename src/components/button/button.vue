@@ -25,7 +25,7 @@ export default {
   props: {
     type: {
       validator (value) {
-        return oneOf(value, ['default'])
+        return oneOf(value, ['default', 'priOne'])
       }
     },
     size: {
