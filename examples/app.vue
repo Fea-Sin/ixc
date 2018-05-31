@@ -11,6 +11,9 @@
         <li>
           <router-link to="/xbutton">XButton</router-link>
         </li>
+        <li>
+          <router-link to="/xradio">XRadio</router-link>
+        </li>
       </ul>
     </nav>
     <router-view></router-view>

@@ -30,6 +30,10 @@ const router = new VueRouter({
     {
       path: '/xbutton',
       component: (resolve) => require(['./routers/xbutton.vue'], resolve)
+    },
+    {
+      path: '/xradio',
+      component: (resolve) => require(['./routers/xradio.vue'], resolve)
     }
   ]
 })

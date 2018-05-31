@@ -1,13 +1,16 @@
 import XIcon from './components/icon'
 import {XRow, XCol} from './components/grid'
 import XButton from './components/button'
+import XRadio from './components/radio'
 import locale from './locale/index'
 
 const components = {
   XButton,
   XCol,
   XIcon,
-  XRow
+  XRow,
+  XRadio,
+  XRadioGroup: XRadio.Group
 }
 
 const ixc = {

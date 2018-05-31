@@ -1,0 +1,25 @@
+.ix-breadcrumb {
+  color: #999;
+  font-size: 14px;
+}
+.ix-breadcrumb a {
+  color: #495060;
+  transition: color 0.2s ease-in-out;
+}
+.ix-breadcrumb a:hover {
+  color: #57a3f3;
+}
+.ix-breadcrumb > span:last-child {
+  font-weight: bold;
+  color: #495060;
+}
+.ix-breadcrumb > span:last-child .ix-breadcrumb-item-separator {
+  display: none;
+}
+.ix-breadcrumb-item-separator {
+  margin: 0 8px;
+  color: #dddee1;
+}
+.ix-breadcrumb-item-link > .ix-icon + span {
+  margin-left: 4px;
+}
