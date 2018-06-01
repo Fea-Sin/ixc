@@ -65,6 +65,7 @@ import 'ixc/dist/styles/ixc.css'
 - XCol
 - XButton
 - XRadio
+- XCheckbox
 
 ## Links
 - [vue](https://github.com/vuejs/vue)

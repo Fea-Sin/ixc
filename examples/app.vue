@@ -14,6 +14,9 @@
         <li>
           <router-link to="/xradio">XRadio</router-link>
         </li>
+        <li>
+          <router-link to="/xcheckbox">XCheckbox</router-link>
+        </li>
       </ul>
     </nav>
     <router-view></router-view>
